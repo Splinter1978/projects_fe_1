@@ -1,0 +1,27 @@
+.trailer {
+    background: url(../images/trailer-bg.png), center, no-repeat, cover;
+}
+
+
+
+button {
+    height: 42px;
+    width: 141px;
+    background-color: #0B0E66;
+    color: #26C6EA;
+    border: 2px solid #26C6EA;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+footer .logo {
+position: relative;
+}
+footer .logo::after {
+    content: '';
+position: absolute;
+top: 0;
+bottom: 0;
+right: 100%;
+background-color: aliceblue;
+}

@@ -3,37 +3,177 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
+    <title>ColoRawe-Nike</title>
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="logo"></div>
+      <div class="container head-con">
+        <div class="logo"><img src="./images/logo.png" alt="" /></div>
         <nav>
-          <div class="nav-item"><a href=""></a></div>
-          <div class="nav-item"><a href=""></a></div>
-          <div class="nav-item"><a href=""></a></div>
-          <div class="nav-item"><a href=""></a></div>
-          <div class="nav-item"><a href=""></a></div>
+          <a class="nav-item select" href="">Main page</a>
+          <a class="nav-item" href="">Benefits</a>
+          <a class="nav-item" href="">Advantages</a>
+          <a class="nav-item" href="">Reviews</a>
+          <a class="nav-item" href="">Contacts</a>
+          <a class="nav-item" href="">Order</a>
         </nav>
-        <div class="lang"></div>
+        <div class="lang">
+          <a class="lang-item" href="">Ua</a>
+          <a class="lang-item select" href="">Eng</a>
+        </div>
       </div>
     </header>
     <section class="hero">
-      <div class="container"></div>
+      <div class="container">
+        <div class="logo-big"><img src="" alt="" /></div>
+        
+        <h1>ColoRawe</h1>
+        <p class="nike">Your dream Nike</p>
+        <p class="h-text">
+          On this site you can find custom Nike sneakers of your dreams. <br />
+          The original company caт`t create such beautiful <br />
+          sneakers as we do. <br />
+          Good luck finding your way in the world of custom sneakers.
+        </p>
+        <button class="h-button">Buy my Nike</button>
+      </div>
     </section>
     <section class="group">
-      <div class="container"></div>
+      <div class="container">
+        <ul class="group-list">
+          <li class="group-item">
+            <img src="./images/stars.svg" alt="" class="gr-img" />
+            <p class="gr-text">Premium Quality</p>
+          </li>
+          <li class="group-item">
+            <img src="./images/paint.svg" alt="" class="gr-img" />
+            <p class="gr-text">Indelible paint</p>
+          </li>
+          <li class="group-item">
+            <img src="./images/truck.png" alt="" class="gr-img" />
+            <p class="gr-text">Fast shipping</p>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="reviews">
-      <div class="container"></div>
+      <div class="container">
+        <h2>Reviews</h2>
+        <ul class="rev-list">
+          <li class="rev-item">
+            <p class="rev-text">
+              Sneakers are very comfortable and well painted, nothing has worn
+              off in a year.
+            </p>
+            <p class="rev-date">25.11</p>
+            <div class="rev-sign">
+              <img src="" alt="" class="rev-pic" />
+              <p class="rev-avtor">John Teylor</p>
+              <p class="rev-exp">With us from 2018</p>
+            </div>
+          </li>
+          <li class="rev-item">
+            <p class="rev-text"></p>
+            <p class="rev-date"></p>
+            <div class="rev-sign">
+              <img src="" alt="" class="rev-pic" />
+              <p class="rev-avtor"></p>
+              <p class="rev-exp"></p>
+            </div>
+          </li>
+          <li class="rev-item">
+            <p class="rev-text"></p>
+            <p class="rev-date"></p>
+            <div class="rev-sign">
+              <img src="" alt="" class="rev-pic" />
+              <p class="rev-avtor"></p>
+              <p class="rev-exp"></p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="order">
-      <div class="container"></div>
+      <div class="container">
+        <h2>Order</h2>
+        <form action="" class="ord-form">
+          <div class="ord-item">
+            <input type="text" placeholder="Write your email" /><button
+              type="submit"
+              class="conf"
+            >
+              Confirm
+            </button>
+          </div>
+          <div class="ord-item">
+            <input type="text" placeholder="Your Country" />
+            <button
+              type="submit"
+              class="conf"
+            >
+              Confirm
+            </button>
+          </div>
+          <div class="ord-item">
+            <input type="text" placeholder="Your City" /><button
+              type="submit"
+              class="conf"
+            >
+              Confirm
+            </button>
+          </div>
+          <div class="ord-item">
+            <input type="text" placeholder="Your Adress" /><button
+              type="submit"
+              class="conf"
+            >
+              Confirm
+            </button>
+          </div>
+          <button class="ord-button">Order my Nike</button>
+        </form>
+      </div>
     </section>
     <footer>
-      <div class="container"></div>
+      <div class="container">
+        <div class="foot-top">
+          <div class="quests">
+            <p>Have a question?</p>
+            <p>Have a proposal for cooperation?</p>
+            <p>Advertising questions?</p>
+          </div>
+
+          <div class="email">
+            <a href="mailto:ColoRawe_support@gmail.com"
+              >ColoRawe_support@gmail.com</a
+            >
+            <a href="mailto:ColoRawe_Cooperation@gmail.com"
+              >ColoRawe_Cooperation@gmail.com</a
+            >
+            <a href="mailto:ColoRawe_Advertising@gmail.com"
+              >ColoRawe_Advertising@gmail.com</a
+            >
+          </div>
+        </div>
+        <div class="foot-bottom">
+          <div class="mark"></div>
+          <div class="foot-logo"></div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
