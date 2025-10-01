@@ -1,110 +1,149 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Avatar-2</title>
-
-  <!-- Скидання та нормалізація -->
-  <link rel="stylesheet" href="./css/modern-normalize.css">
-  <link rel="stylesheet" href="./css/style.css">
-
-  <!-- Шрифти -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Cinzel:wght@600&display=swap" rel="stylesheet">
-
-</head>
-<body>
-  <!-- Хедер
-  <header class="header">
-    <a href="#" class="logo">Avatar</a>
-    <nav class="nav container">
-      <ul class="menu">
-        <li><a href="#">Головна</a></li>
-        <li><a href="#">Про фільм</a></li>
-        <li><a href="#">Контакти</a></li>
-      </ul>
-      <button class="btn">Приєднатися</button>
-    </nav>
-    <div class="page-lang">
-      <a href="" class="curr-lang"></a>
-      <div class="selec">
-        <div class="lang-dot"></div>
-      </div>
-      <a href="" class="next-lang"></a>
-    </div>
-  </header>
-
-
-  <section class="hero">
-    <section>
-      
-    </section>
-    <div class="container hero-content">
-      <p class="quote">“Багато людей з неба прийде. Вони прийдуть, як гроза, яка ніколи не закінчується.”</p>
-      <span class="author">— Джейк Саллі</span>
-    </div>
-  </section>
-
-
-  <section class="trailer">
-    <button class="btn btn-trailer">Дивитись трейлер</button>
-<section>
-
-</section>
-    <p class="quote">“Вся енергія лише запозичена, одного дня її доведеться повернути.”</p>
-    <span class="author">— Джейк Саллі</span>
-  </section>
-
-
-  <section class="language">
-    <h2>Вчимо мову На’ві</h2>
-    <div class="grid">
-      <div>Привіт — Kaltxì</div>
-      <div>Дякую — Irayo</div>
-      <div>Поглянь — Nari si</div>
-      <div>Будь сильним — Kìyevame</div>
-      <div>Все добре — Lu fpom</div>
-      <div>Я бачу тебе — Oel ngati kameie</div>
-      <div>Слідуй за мною! — Nìmun ayngaru</div>
-      <div>Тримайся! — Txur!</div>
-    </div>
-    <section>
-
-    </section>
-    <p class="quote">“Наша Велика Мати не стає на чиюсь сторону. Вона захищає лише життєвий баланс.”</p>
-    <span class="author">— Нейтірі</span>
-  </section>
-
-
-  <footer class="footer">
-    <p>Q&A E-mail.</p>
-    <p>avatartwowqa@gmail.com</p>
-      <p>Cooperation E-mail</p>
-    <p>avatartwowqa@gmail.com</p>
-  </footer> -->
-  <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-  </header>
-  <main>
-    <section class="hero">
-      <div class="container"></div>
-    </section>
-    <section class="text">
-      <div class="container"></div>
-    </section>
-    <section class="trailer">
-      <div class="container"></div>
-    </section>
-    <section class="text">
-      <div class="container"></div>
-    </section>
-    <section class="langv">
-      <div class="container"></div>
-    </section>
-    <section class="text">
-      <div class="container"></div>
-    </section>
-  </main>
-  <footer></footer>
-</body>
+<!-- Шрифти -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Headland+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Avatar-2</title>
+  </head>
+  <body>
+    <header>
+      <div class="embox"></div>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./images/avatar-2-logo.png" alt="Avatar"
+        /></a>
+        <nav>
+          <ul class="menu">
+            <li><a class="selected" href="#">Головна</a></li>
+            <li><a href="#">Про фільм</a></li>
+            <li><a href="#">Контакти</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="join-btn">Увійти</button>
+      </div>
+      <div class="page-lang">
+        <a href="" class="curr-lang">ENG</a>
+        <div class="lang-selector">
+          <div class="lang-dot"></div>
+        </div>
+        <a href="" class="next-lang">UA</a>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="herotext">
+            <pre>Oe perlltxe hu tsamsiyu!
+Ngari hu Eywa salew tirea, 
+tokx 'ì'awn slu Na'viyä hapxì.
+Säwem nìayoeng!</pre>
+<pre>Хоробрий воїне, звертаюсь до тебе!
+Твій дух йде з Ейвою, 
+твоє тіло залишається, 
+щоб стати частиною Народу.
+Борись разом з нами!</pre>
+<button class="hero-btn" type="button">Приєднатися до клану</button>
+          </div>
+          <div class="media">
+            <a href="" class="media-btn"><img src="./images/inst1.png" alt=""></a>
+            <a href="" class="media-btn"><img src="./images/twitter1.png" alt=""></a>
+            <a href="" class="media-btn"><img src="./images/youtube1.png" alt=""></a>
+          </div>
+        </div>
+      </section>
+      <section class="text">
+        <div class="container">
+          <pre class="quote">
+“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ
+ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”
+          </pre>
+          <p class="author">Джейк Саллі</p>
+          <img src="./images/insigna.png" alt="" />
+        </div>
+      </section>
+      <section class="trailer">
+        <div class="container">
+          <button type="button" class="btn-trailer">
+            Дивитись трейлер
+          </button>
+        </div>
+      </section>
+      <section class="text">
+        <div class="container">
+          <pre class="quote blackquote">
+“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ
+ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”
+          </pre>
+          <p class="author">Джейк Саллі</p>
+          <img src="./images/insigna.png" alt="" />
+        </div>
+      </section>
+      <section class="langv">
+        <div class="container">
+          <h2>Вчимо мову На’ві</h2>
+          <ul class="wokab">
+            <li class="langcard">
+              <p class="earth">Привіт</p>
+              <p class="navi">Kaltxì</p>
+            </li>
+            <li class="langcard">
+              <p class="earth">Як справи?</p>
+              <p class="navi">Ngaru lu fpom srak?</p>
+            </li>
+            <li class="langcard">
+              <p class="earth">Все добре</p>
+              <p class="navi">Lu fpom</p>
+            </li>
+            <li class="langcard">
+              <p class="earth">Дякую</p>
+              <p class="navi">Irayo si</p>
+            </li>
+            <li class="langcard">
+              <p class="earth">Я бачу тебе</p>
+              <p class="navi">Oel ngati kameie</p>
+            </li>
+            <li class="langcard">
+              <p class="earth">Слідуй за мною!</p>
+              <p class="navi">Nong oet!</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="text">
+        <div class="container">
+          <pre class="quote blackquote">
+“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,
+ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”
+          </pre>
+          <p class="author">Нейтірі</p>
+          <img src="./images/insigna.png" alt="" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./images/avatar-2-logo.png" alt="Avatar"
+        /></a>
+        <div class="foot-text">
+          <p>Q&A E-mail <span> </span> avatartwowqa@gmail.com</p>
+          <p>Cooperation E-mail <span> </span> avatartwowcoop@gmail.com</p>
+          <p class="copyright">©2023 Avatar: The Way Of Water. All rights reserved</p>
+        </div>
+      </div>
+      
+    </footer>
+  </body>
 </html>

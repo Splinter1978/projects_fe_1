@@ -1,27 +1,269 @@
+:root {
+  --color-white: #ffffff;
+  --color-black1: #141414;
+  --color-black: #000000;
+  --color-blue1: #26c7ea;
+  --color-drkblue: #0b0e66;
+  --color-blue2: #0a3853;
+  --color-blue3: #94cfff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+.container {
+  max-width: 1240px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+
+}
+ul {
+  list-style: none;
+}
+
+header, footer {
+  min-height: 150px;
+  display: flex;
+  background: linear-gradient(
+      90deg,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url(../images/footer-bg.png) center no-repeat;
+  background-size: cover;
+  gap: 49px;
+  justify-content: center;
+  align-items: center;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+header a,
+header a:visited {
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: 300;
+}
+nav {
+  flex-basis: 325px;
+}
+.menu {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selected,
+.selected:visited {
+  font-weight: 600;
+  color: var(--color-blue3);
+}
+.join-btn,
+.hero-btn,
+.btn-trailer {
+  font-family: "Headland One", sans-serif;
+  font-size: 20px;
+  height: 42px;
+  width: 141px;
+  background-color: #0b0e66;
+  color: #26c6ea;
+  border: 2px solid #26c6ea;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.embox {
+  width: 107px;
+}
+.page-lang {
+  width: 107px;
+  font-family: "Headland One", sans-serif;
+}
+.lang-selector {
+  display: inline-block;
+  width: 36px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.lang-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid white;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.hero {
+  min-height: 740px;
+  background: url(../images/hero-bg.png) no-repeat center;
+  background-size: cover;
+  color: var(--color-white);
+  display: flex;
+}
+.hero > .container {
+  justify-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.herotext {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  font-size: 20px;
+}
+.hero-btn {
+  height: 80px;
+  width: 260px;
+  font-size: 24px;
+  padding: 0 30px;
+}
+.media {
+  height: 141px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: self-end;
+}
+
+.text {
+  min-height: 350px;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 75px;
+}
+.quote {
+  color: var(--color-blue2);
+}
+
+.autor {
+  color: var(--color-black);
+  font-size: 24px;
+}
+.text > img {
+  width: 400px;
+  height: 120px;
+  margin: 10px auto;
+}
+.blackquote {
+  color: var(--color-black1);
+}
 .trailer {
-    background: url(../images/trailer-bg.png), center, no-repeat, cover;
+  min-height: 741px;
+  background: url(../images/trailer-bg.png), center, no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.trailer > .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-trailer {
+  height: 80px;
+  width: 260px;
+  font-size: 24px;
 }
 
-
-
-button {
-    height: 42px;
-    width: 141px;
-    background-color: #0B0E66;
-    color: #26C6EA;
-    border: 2px solid #26C6EA;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+.langv {
+  min-height: 704px;
+  background: url(../images/lang-bg.png) center no-repeat;
+  background-size: cover;
+}
+.langv > .container {
+  padding: 58px;
+  min-height: 704px;
+  font-family: "Headland One", serif;
+}
+.langv h2 {
+  font-family: "Headland One", sans-serif;
+  font-size: 32px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+.wokab {
+  max-width: 1033px;
+  width: 100%;
+  display: flex;
+  row-gap: 24px;
+  column-gap: 36px;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: center;
+  align-content: space-between;
+  margin: 0 auto;
+}
+.langcard {
+  height: 240px;
+  flex-shrink: 0;
+  flex-basis: 320px;
+  background-color: rgba(255, 255, 255, 0.7);
+  background:url(../images/arrow-r.png), linear-gradient(0deg, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7));
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 36px 0;
+  font-size: 24px;
+  text-align: center;
 }
 
-footer .logo {
-position: relative;
+.langcard:nth-child(2),
+.langcard:nth-child(5) {
+    background-color: rgba(255, 255, 255, 0.7);
+  background: url(../images/insigna.png), linear-gradient(0deg, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 152px 40px, cover;
 }
-footer .logo::after {
-    content: '';
-position: absolute;
-top: 0;
-bottom: 0;
-right: 100%;
-background-color: aliceblue;
+.langcard:nth-child(3),
+.langcard:nth-child(6) {
+    background-color: rgba(255, 255, 255, 0.7);
+  background: url(../images/arrow-r2.png), linear-gradient(0deg, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7));
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+.navi {
+    margin-top: 111px;
+  font-family: "Headland One", serif;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-white);
+}
+footer>.logo {
+  position: relative;
+}
+footer>.logo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  width: 1px;
+  background-color: aliceblue;
+}
+span {
+    display: inline-block;
+    width: 169px;
+    border: 1px dashed var(--color-white);
 }
