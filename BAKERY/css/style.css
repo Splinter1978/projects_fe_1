@@ -28,7 +28,21 @@
     
  }
  .quality {
-    
+    min-height: 853px;
+    background-color: var(--color-grey);
+    background-image: linear-gradient(45deg, rgba(32, 32, 35, 0.9), rgba(32, 32, 35, 0.1)),
+    url(../images/q-bg.png), 
+    url(../images/q-bg.png), 
+    url(../images/q-bg.png);
+    background-position:
+    0 0, 
+    -423px 211px, 
+    180px 211px, 
+    793px 211px;
+
+    background-repeat: no-repeat;
+
+outline: 2px solid #FFFFFF;
  }
 .why {
     
@@ -38,4 +52,6 @@
  } {
     
  }
-footer
+footer {
+   
+}
